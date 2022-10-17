@@ -1,0 +1,22 @@
+{
+	"name": "kune-backend",
+	"version": "1.0.0",
+	"description": "backend to kune website",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "kune-backend"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mysql": "^2.18.1"
+	}
+}
